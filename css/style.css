@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+}
+
+.lb {
+    width: 150px;
+    height: 20px;
+    border: 1px black solid;
+    float: right;
+    margin: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.row {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.txt {
+    margin: 10px;
+    margin-top: 25px; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#tlt1 {
+    background-color: rgb(34, 2, 150); 
+    color: white;
+}
+
+#tlt2 {
+    background-color: rgba(201, 59, 59, 0.863); 
+    color: white;
+}
+
+#tlt3 {
+    background-color:rgb(65, 0, 40); 
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+      border: 1px black solid;
+      float: left;              
+      width: 31%;
+      margin: 10px;
+      background-color:rgb(148, 149, 150);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        border: 1px black solid;
+        background-color:rgb(148, 149, 150);
+    }
+    .col-md-6 {
+        width: 47%;
+        margin: 10px;
+    }
+
+    .col-md-12 {
+        width: 96.5%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+      width: 96.5%;
+      margin: 10px;
+      border: 1px black solid;
+      background-color:rgb(148, 149, 150);
+    }
+}
